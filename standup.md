@@ -6,7 +6,7 @@
 
 # What do I need help for? 
 
-# waht is expected data of finishing it? 
+# What is expected data of finishing it? 
 
 
 # Notes for other memebers: 
