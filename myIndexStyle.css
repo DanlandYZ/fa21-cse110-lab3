@@ -6,4 +6,101 @@ body{
     background-color: lightcoral;
     columns: white;
     text-align: center;
+
+    font-size: 30px;
+}
+
+#big_title{
+    color: mediumblue;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.date{
+    color: rgb(255,0,0);
+    height: 1cm;
+    text-align: left;
+}
+
+.time{
+    color: #00ff00;
+    height: 3vmin;
+    text-align: left;
+}
+
+.purpose{
+    color: hsl(240, 100%, 50%);
+    height: 3vmin;
+    text-align: left;
+}
+
+#note{
+    text-align: center;
+    color: red;
+}
+
+#brainstorm{
+    padding: 20px;
+
+    border-width: 10px;
+    border-style: dashed;
+    border-color: orange; 
+
+    margin: 50px;
+    display: block; 
+}
+
+.food_choice{
+    height: 150px;
+    position: static; 
+    display: inline-block; 
+}
+
+#veto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-top: 10px dashed;
+    border-bottom: 10px dashed;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-radius: 5px;
+    border-color: yellowgreen; 
+}
+
+#veto_choice{
+    display: flex; 
+    flex-direction: row;
+    align-items:center;
+    align-self: stretch;
+    gap: 50px; 
+}
+
+.person_choice{
+    margin: auto;
+    display: inline-flexbox;
+}
+
+#reasoning{
+    margin: 50px;
+    padding: 20px;
+
+    border: 10px; 
+    border-top:10px cyan solid;
+    border-bottom:10px cyan solid; 
+    border-left:10px cyan dashed;
+    border-right:10px cyan dashed; 
+}
+
+#reason_box{
+    display: grid; 
+    grid-template-rows: [row1] 1fr [row2] 1fr [row3] 1fr; 
+    grid-template-columns: [col1] 1fr [col2] 1fr;
 }
