@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="myIndexStyle.css">
     <title>What to Eat for Lunch? </title>
     <link rel="icon" type="image/jpg" href="/iicon.jpg">
+
+    <!--- required text in html to use font--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Birthstone&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -84,16 +94,16 @@
 
                     <input type="radio" name="food" class="food_choice">
                     <img src="https://kurasushi.com/wp-content/uploads/2020/11/New_Landscape_Short_Black_Short_2000px.png"
-                        alt="Kura Sushi" width="200">&nbsp;Prposed by Person3
+                        alt="Kura Sushi">&nbsp;Prposed by Person3
 
                     <br>
                     <input type="radio" name="food" class="food_choice">
-                    <img src="https://bonchon.sfo3.digitaloceanspaces.com/logo.png" alt="Bonchon"
-                        width="100">&nbsp;Proposed by Person4
+                    <img src="https://bonchon.sfo3.digitaloceanspaces.com/logo.png" alt="Bonchon">
+                    &nbsp;Proposed by Person4
 
                     <input type="radio" name="food" class="food_choice">
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABJCAMAAAAwl0llAAAAllBMVEX////39/cAAACw1afN5Mfk8eCZyo1YrD54uWTx8fHE3r3t7e37+/vc3NzKysrPz89oslMoKChwtl2urq5ERER3d3cPDw+io6OampqQkJDs9eq0tLTj4+NqampiYmItLS03NzcYGBhSqjOGhoaPxYCGwXahzpbV6NC927VkskxHpiX1+vQ7og1/vW2/v7+p0Z5YWFhOTk6hujiwAAADAElEQVRoge2a25KiMBBAm3gNVyVEwKAg6Oigov7/z20noKMwD7M1VVhbm64yJDGdk74RHwRqvEMoGPAOMTRXczVXczVXczVXczVXc9/AHQ2205m/+9j3yj18lrvBwTwMtnn5ceyLu5xNTPs+GE3LYT/cZTl+GZsnsxeuP25NDE/LHrj70m5PnT964B7OnSlz2gPXzIct2e92v+HSqsK+p7zoUDkhv7I9OfYsy5OSYP8y82cofvPBZqdKKRG41HLgoWTV+9qeqLCbSF3D63ATUnDiAJFEyFxsIiaVCTZiDuGCc74Saql8WRxlsxxhM6qzim2KWwBsrYhEnv6qzlCRa7EiMRQxDlLW4fIQwE0aboBcO83kFgu0HidDfvfLqJxMluYpPx/HZXmx/byuI4L2MGArxV3Y0hCpIuQ82IEXR8goun7msXLKF7fia1dx7QU+H9zBaQDjU7kH//S5XE5OZ6yjreQq6564cTg3cL+7Z4sIWPZNfNHP1gv35rhrxb3iSZ/slXJ8bRSRsFfuBsngPlBFmNR7t7hAOUE3EDW+uWDNUTXBRyQj/MS9+G3Zqgh7NyIaLkWu4GBtmnhLieNF9HXwlzqi1zWQOUqK3omZXIspcuVyr5Ck+AXIO6FdR8NtU9IOEZVaNk9tCBzpNjd4cElYh6LLRWstklBKjcC1iYW1Q5BLIY2kvbZhyLVmPmjLdNuoO5lYG6jvbMBJqUXZTaVbzeXgfTn6wbWuIKNrNfH1qs0tCG4LQTGfKXGf/Gxuxy25YJCFTFU3qJr4As8C1Cc0TNULYSVkPkdBhwvFJmTz4lG/mfKJm6n6dUgSpjGKKr9RW2RuGemVRcS7169R5wkaGRHOos1K5jPAmne44EUxZrFQx6uS+g0BwlId100ECquQmk/aUh6UThwmkLhq16p+AkVtS8QhGuFJQ2xGv43vD2TQvRcOvdwLn52p8a/uhR+KPcv96bPM8kkf9z5G2HyR4eivd/j3fj9rruZqruZqruZqruZqrub+n9w3/X/jD9tEOkySljbpAAAAAElFTkSuQmCC"
-                        alt="Shake Shack" width="200">&nbsp;Proposed by Person1
+                        alt="Shake Shack">&nbsp;Proposed by Person1
                     <br>
                     <button type="button">Enter</button>
 
@@ -297,31 +307,33 @@
         <div id="reasoning">
             <h2 class="organize">Reasoning</h2>
             <div id="reason_box">
-
-                <p>Person1: There is a Chipotle right <i>next to</i> my place, I have had it too many times </p>
-                <p>Person2: Please no <em>garbage food</em> such burgers</p>
-                <p>Person3: I can not eat any <i>raw meat</i>, ok with anything else</p>
-                <p>Person4: I would prefer <em>In-n-out</em> over <em>Shake Shack</em></p>
-
-                <p><em>Ding Tai Feng</em> is vetoed by everyone because it is too <strong>expensive</strong></p>
+                <p id="item_1">Person1: There is a Chipotle right <i>next to</i> my place, I have had it too many times
+                </p>
+                <p id="item_2">Person2: Please no <em>garbage food</em> such burgers</p>
+                <p id="item_3">Person3: I can not eat any <i>raw meat</i>, ok with anything else</p>
+                <p id="item_4">Person4: I would prefer <em>In-n-out</em> over <em>Shake Shack</em></p>
+                <p id="item_5"><em>Ding Tai Feng</em> is vetoed by everyone because it is too <strong>expensive</strong>
+                </p>
             </div>
         </div>
 
         <br>
-        <h2 id="Decision" class="organize">Dicision</h2>
-        <p>Based on voting, a consencus can be drawn with dining out at <b>Bonchon</b></p>
-        <div>
-            <video controls width="500">
-                <source src="video_1.mp4" type="video/mp4">
-            </video>
-        </div>
+        <div id="Decision">
+            <h2 class="organize">Dicision</h2>
+            <p id="decision_text">Based on voting, a consencus can be drawn with dining out at <b>Bonchon</b></p>
+            <div id="decision_video">
+                <video controls width="500">
+                    <source src="video_1.mp4" type="video/mp4">
+                </video>
+            </div>
 
-        <div>
-            <figure>
-                <figcaption>Here is an ASMR</figcaption>
-                <audio controls src="audio1.mp3"></audio>
-            </figure>
+            <div id="decision_audio">
+                <figure>
+                    <figcaption>Here is an ASMR</figcaption>
+                    <audio controls src="audio1.mp3"></audio>
+                </figure>
 
+            </div>
         </div>
         <hr>
 
@@ -329,9 +341,12 @@
 
 
     <footer>
-        <p>Please Enter the date for next Lunch:</p>
-        <input type="date">
+        <div>
+            <p>Please Enter the date for next Lunch:</p>
+            <input type="date">
+        </div>
         <br>
+        <p></p>
         <label for="story"> Any of your story you want to convert to meeting minute?</label>
         <br>
         <textarea name="story" id="story" cols="100" rows="5"></textarea>
